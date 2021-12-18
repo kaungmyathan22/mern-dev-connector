@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://arkarhtethan:Kaungmyathan1209!@cluster0.netvj.mongodb.net/devcamp?retryWrites=true&w=majority",
+    "jwtSecret": "mysecret",
+    "githubClientId": "62607cf6d6ab54e21159",
+    "githubSecret": "4eee1a28b960986ccc12036afe6b26dfe939dcc2"
+}
