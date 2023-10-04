@@ -7,14 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client":"npm start --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Kaung Myat Han",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.3",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.8.1",
     "gravatar": "^1.8.1",

@@ -1,12 +1,8 @@
 const mongoose = require('mongoose');
 
-const config = require('config');
-
-const db = config.get("mongoURI");
-
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://kaungmyathan:kaungmyathan@cluster0.netvj.mongodb.net/devcamp?retryWrites=true&w=majority", {
+        await mongoose.connect(process.env.MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
